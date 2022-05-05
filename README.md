@@ -5,36 +5,36 @@ as lights.s -o lights.o
 
 ## Clear
 This program will clear the sensehat.  
-To assemble:  
+###To assemble:  
 as clear.s -o clear.o  
-To link and create the binary executable:  
+###To link and create the binary executable:  
 ld clear.o lights.o -o clear  
-To run:  
+###To run:  
 ./clear  
 
 ## Blue
 This program will turn all LEDs on the sensehat to the color blue.  
-To assemble:  
+###To assemble:  
 as part2.s -o part2.o  
-To link and create the binary executable:  
+###To link and create the binary executable:  
 ld part2.o lights.o -o blue  
-To run:  
+###To run:  
 ./blue  
 
 ## Red X
 This program will output a Red X on the sensehat.  
-To assemble:  
+###To assemble:  
 as part3.s -o part3.o  
-To link and create the binary executable:  
+###To link and create the binary executable:  
 ld part3.o lights.o -o redx  
-To run:  
+###To run:  
 ./redx  
 
 ## CC (my initials)
 This program will output 'cc' on the sensehat. These are my initials.  
-To assemble:  
+###To assemble:  
 as part4.s -o part4.o  
-To link and create the binary executable:  
+###To link and create the binary executable:  
 ld part4.o lights.o -o initials  
-To run:  
+###To run:  
 ./initials  
